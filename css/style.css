@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 1.235rem;
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  text-align: center;
+  background-image: url(../images/donation13.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 8em;
+}
+.header-title{
+  color: rgb(238, 222, 222);
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+header p{
+  color: white;
+  padding-bottom: .75em;
+}
+.link-btn{
+  text-decoration: none;
+  color: white;
+  background-color:rgb(222, 97, 138);
+  padding: 8px 25px;
+  border-radius: 5px;
+}
