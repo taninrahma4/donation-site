@@ -26,14 +26,15 @@ header p{
   color: white;
   background-color:rgb(222, 97, 138);
   padding: 8px 25px;
-  border-radius: 5px;
+  border-radius: 8px;
 }
-.donate-today-header{
+.donate-today-header,.donate-plan-header{
   text-align: center;
-  margin-top: 5em;
+  margin-top: 3em;
+  font-size: 2rem;
 }
-.donate-today-header p{
-  color: rgb(169, 155, 155) ;
+.common-para{
+  color: rgb(101, 99, 99) ;
   font-size: 1rem;
 }
 .donate-amount{
@@ -49,6 +50,7 @@ header p{
   background-color: rgb(243, 243, 243);
   border-radius: 5px;
   color: rgb(102, 98, 98);
+  font-size: 1.75rem;
 }
 .active-amount{
   color: orangered;
@@ -62,14 +64,34 @@ input{
   border: none;
   border-bottom: 1px solid rgb(195, 195, 195);
   text-align: center;
-  padding-bottom: 1em;
+  padding: 1em 0;
+  font-size: 1rem;
 }
 .submit-btn{
   width: 150px;
   color: white;
   padding: .75em 2em;
-  border-radius: 5px;
+  border-radius: 8px;
   font-size: 1rem;
   border: transparent;
   background-color:rgb(222, 97, 138);
+  cursor: pointer;
+}
+.donate-plan-boxes{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+.plan-box{
+  width: 25%;
+  margin: .5em;
+  background-color: lightpink;
+  padding: 2.5em 1em 1em 1em;
+  border-radius: 4px;
+}
+.box1{
+  background-color: #ccc7c7;
+}
+.box3{
+  background-color: rgb(195, 162, 101);
 }
