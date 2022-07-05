@@ -13,7 +13,7 @@ header{
   padding: 8em;
 }
 .header-title{
-  color: rgb(238, 222, 222);
+  color: rgb(255, 255, 255);
   font-size: 3.5rem;
   font-weight: bold;
 }
@@ -27,4 +27,49 @@ header p{
   background-color:rgb(222, 97, 138);
   padding: 8px 25px;
   border-radius: 5px;
+}
+.donate-today-header{
+  text-align: center;
+  margin-top: 5em;
+}
+.donate-today-header p{
+  color: rgb(169, 155, 155) ;
+  font-size: 1rem;
+}
+.donate-amount{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.amount{
+  margin: .75em;
+  /* border: 2px solid red; */
+  padding: 1.5em 1em;
+  font-weight: bold;
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+  color: rgb(102, 98, 98);
+}
+.active-amount{
+  color: orangered;
+  border: 2px solid red;
+  background-color: rgb(231, 159, 159);
+}
+input{
+  width: 700px;
+  display: block;
+  margin: 2em auto;
+  border: none;
+  border-bottom: 1px solid rgb(195, 195, 195);
+  text-align: center;
+  padding-bottom: 1em;
+}
+.submit-btn{
+  width: 150px;
+  color: white;
+  padding: .75em 2em;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: transparent;
+  background-color:rgb(222, 97, 138);
 }
