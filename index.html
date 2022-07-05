@@ -1,64 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Start Donate Now</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Mukta&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header>
-    <h1 class="header-title">Let's Help Those Who Are <br> More In Need</h1>
-    <p>For flood, lots of people are helpless.They needs help.So in this time we have to unity so that <br> we can help people.Let's go for those people who are waiting for our help.</p>
-    <a class="link-btn" href="#">Donate Now</a>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Start Donate Now</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="header-title">
+        Let's Help Those Who Are <br />
+        More In Need
+      </h1>
+      <p>
+        For flood, lots of people are helpless.They needs help.So in this time
+        we have to unity so that <br />
+        we can help people.Let's go for those people who are waiting for our
+        help.
+      </p>
+      <a class="link-btn" href="#">Donate Now</a>
+    </header>
 
-  <section>
-    <div class="donate-today-header">
-      <h2>Donate Today</h2>
-    <p class="common-para">Please donate for those people who are waiting for your help.Just look them and help and <br> Pray for all the people who are totally helpless.</p>
-    </div>
+    <section>
+      <div class="donate-today-header">
+        <h2>Donate Today</h2>
+        <p class="common-para">
+          Please donate for those people who are waiting for your help.Just look
+          them and help and <br />
+          Pray for all the people who are totally helpless.
+        </p>
+      </div>
 
-    <div class="donate-amount">
-      <div class="amount">100tk</div>
-      <div class="amount active-amount">200tk</div>
-      <div class="amount">500tk</div>
-      <div class="amount">1000tk</div>
-      <div class="amount">5000tk</div>
+      <div class="donate-amount">
+        <div class="amount">100tk</div>
+        <div class="amount active-amount">200tk</div>
+        <div class="amount">500tk</div>
+        <div class="amount">1000tk</div>
+        <div class="amount">5000tk</div>
+      </div>
+
+      <input id="taka-input" type="text" name="number" placeholder="Other Amount(Taka)" />
+      <input type="button" value="Donate Now" class="submit-btn" />
+    </section>
+
+    <div class="donate-plan-container">
+      <div class="donate-plan-header">
+        <h2>Our Donate Plan</h2>
+        <p class="common-para">
+          We have a donate plan.We work for people who has been ruinded by
+          flood.<br />We help them as a kind of systym.
+        </p>
+      </div>
+
+      <div class="donate-plan-boxes">
+        <div class="plan-box box1">
+          <img src="icons/food.png" alt="food" />
+          <h3>Food for family</h3>
+          <p>
+            We work for those haungry people who cannot cook anymore for flood.
+          </p>
+        </div>
+        <div class="plan-box box2">
+          <img src="icons/shelter.png" alt="shelter" />
+          <h3>Shelter for family</h3>
+          <p>
+            We work for those people who has been ruinded their home by flood
+            and become Shelterless.
+          </p>
+        </div>
+        <div class="plan-box box3">
+          <img src="icons/Frame-1.png" alt="education" />
+          <h3>Education for a child</h3>
+          <p>
+            We also work for child.We work for their education.For those family
+            who cannot survibe.
+          </p>
+        </div>
+      </div>
     </div>
     
-    <input type="text" name="number" placeholder="Other Amount(Taka)">
-    <input type="button" value="Donate Now" class="submit-btn">
-  </section>
-
-  <div class="donate-plan-container">
-
-    <div class="donate-plan-header">
-      <h2>Our Donate Plan</h2>
-      <p class="common-para">We have a donate plan.We work for people who has been ruinded by flood.<br>We help them as a kind of systym.</p>  
-    </div>
-   
-    <div class="donate-plan-boxes">
-      <div class="plan-box box1">
-        <img src="icons/food.png" alt="food">
-        <h3>Food for family</h3>
-        <p>We work for those haungry people who cannot cook anymore for flood.</p>
+    <div class="mail-container">
+      <div class="mail-container-head">
+        <h3>Get My Updates</h3>
+        <p class="common-para">If you want to get my updates.Drop your <br>Email Account to get my updates.</p>
       </div>
-      <div class="plan-box box2">
-        <img src="icons/shelter.png" alt="shelter">
-        <h3>Shelter for family</h3>
-        <p>We work for those people who has been ruinded their home by flood and become Shelterless.</p>
-      </div>
-      <div class="plan-box box3">
-        <img src="icons/Frame-1.png" alt="education">
-        <h3>Education for a child</h3>
-        <p>We also work for child.We work for their education.For those family who cannot survibe.</p>
+      <div class="mail-submit">
+        <input type="email" name="email" id="email">
+        <input type="button" value="Subscribe" id="subscribe-btn">
       </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>
