@@ -99,30 +99,6 @@ header p{
 .box3{
   background-color: rgb(195, 162, 101);
 }
-.mail-submit{
-  display: flex;
-  justify-content: center;
-  background: #eacfcf;
-  width: 50%;
-  margin: 3em auto;
-  padding: 4em 4px;
-  font-size: 1.25rem;
-}
-#email{
-  width: 300px;
-  border: 2px solid transparent;
-  padding: 10px 20px;
-  border-radius: 5px;
-  background: #e7e1e1;
-}
-#subscribe-btn{
-  padding: 10px 25px;
-  border: transparent;
-  background: rgb(232, 83, 29);
-  color: white;
-  border-radius: 5px;
-  cursor: pointer;
-}
 .volunteer-form{
   display: flex;
   flex-direction: column;
@@ -152,4 +128,28 @@ form input[type=button]{
   width: 580px;
   background: rgb(232, 83, 29);
   color: white;
+}
+.mail-submit{
+  display: flex;
+  justify-content: center;
+  background: #eacfcf;
+  width: 50%;
+  margin: 3em auto;
+  padding: 4em 4px;
+  font-size: 1.25rem;
+}
+#email{
+  width: 300px;
+  border: 2px solid transparent;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #e7e1e1;
+}
+#subscribe-btn{
+  padding: 10px 25px;
+  border: transparent;
+  background: rgb(232, 83, 29);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
 }
