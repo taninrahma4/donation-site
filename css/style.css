@@ -128,13 +128,14 @@ form input[type=button]{
   width: 580px;
   background: rgb(232, 83, 29);
   color: white;
+  cursor: pointer;
 }
 .mail-submit{
   display: flex;
   justify-content: center;
   background: #eacfcf;
   width: 50%;
-  margin: 3em auto;
+  margin: 4em auto;
   padding: 4em 4px;
   font-size: 1.25rem;
 }
@@ -152,4 +153,14 @@ form input[type=button]{
   color: white;
   border-radius: 5px;
   cursor: pointer;
+}
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 2em;
+}
+footer h2{
+  font-family: 'IBM Plex Mono', monospace;
+  color: orangered;
 }
