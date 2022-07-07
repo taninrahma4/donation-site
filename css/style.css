@@ -1,10 +1,10 @@
-body{
+body {
   margin: 0;
   padding: 0;
   font-size: 1.235rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-header{
+header {
   text-align: center;
   background-image: url(../images/donation13.jpg);
   background-repeat: no-repeat;
@@ -12,40 +12,42 @@ header{
   background-size: cover;
   padding: 8em;
 }
-.header-title{
+.header-title {
   color: rgb(255, 255, 255);
   font-size: 3.5rem;
   font-weight: bold;
 }
-header p{
+header p {
   color: white;
-  padding-bottom: .75em;
+  padding-bottom: 0.75em;
 }
-.link-btn{
+.link-btn {
   text-decoration: none;
   color: white;
-  background-color:rgb(222, 97, 138);
+  background-color: rgb(222, 97, 138);
   padding: 8px 25px;
   border-radius: 8px;
 }
-.donate-today-header,.donate-plan-header,.mail-container-head{
+.donate-today-header,
+.donate-plan-header,
+.mail-container-head {
   text-align: center;
   margin-top: 3em;
   font-size: 2rem;
 }
-.common-para{
-  color: rgb(101, 99, 99) ;
+.common-para {
+  color: rgb(101, 99, 99);
   font-size: 1.25rem;
-  margin-top: -15px;
+  margin-top: -20px;
   margin-bottom: 2em;
 }
-.donate-amount{
+.donate-amount {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.amount{
-  margin: .75em;
+.amount {
+  margin: 0.75em;
   /* border: 2px solid red; */
   padding: 1.5em 1em;
   font-weight: bold;
@@ -54,12 +56,12 @@ header p{
   color: rgb(102, 98, 98);
   font-size: 1.75rem;
 }
-.active-amount{
+.active-amount {
   color: orangered;
   border: 2px solid red;
   background-color: rgb(231, 159, 159);
 }
-#taka-input{
+#taka-input {
   width: 700px;
   display: block;
   margin: 1.25em auto;
@@ -69,37 +71,37 @@ header p{
   padding: 1em 0;
   font-size: 1rem;
 }
-.submit-btn{
+.submit-btn {
   display: block;
   width: 150px;
   color: white;
-  padding: .75em 2em;
+  padding: 0.75em 2em;
   border-radius: 8px;
   font-size: 1rem;
   border: transparent;
-  background-color:rgb(222, 97, 138);
+  background-color: rgb(222, 97, 138);
   cursor: pointer;
   margin: auto;
 }
-.donate-plan-boxes{
+.donate-plan-boxes {
   display: flex;
   justify-content: center;
   margin-bottom: 3em;
 }
-.plan-box{
+.plan-box {
   width: 25%;
-  margin: .5em;
+  margin: 0.5em;
   background-color: lightpink;
   padding: 2.5em 1em 1em 1em;
   border-radius: 4px;
 }
-.box1{
+.box1 {
   background-color: #ccc7c7;
 }
-.box3{
+.box3 {
   background-color: rgb(195, 162, 101);
 }
-.volunteer-form{
+.volunteer-form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -109,9 +111,9 @@ header p{
   padding: 2em 2em;
   box-shadow: 0px 0px 5px black;
   border-radius: 5px;
-
 }
-form input,select{
+form input,
+select {
   display: block;
   width: 500px;
   padding: 1em 3em;
@@ -120,17 +122,17 @@ form input,select{
   border: transparent;
   background-color: #efefef;
 }
-select{
+select {
   width: 580px;
 }
-form input[type=button]{
+form input[type="button"] {
   background-color: black;
   width: 580px;
   background: rgb(232, 83, 29);
   color: white;
   cursor: pointer;
 }
-.mail-submit{
+.mail-submit {
   display: flex;
   justify-content: center;
   background: #eacfcf;
@@ -139,14 +141,14 @@ form input[type=button]{
   padding: 4em 4px;
   font-size: 1.25rem;
 }
-#email{
+#email {
   width: 300px;
   border: 2px solid transparent;
   padding: 10px 20px;
   border-radius: 5px;
   background: #e7e1e1;
 }
-#subscribe-btn{
+#subscribe-btn {
   padding: 10px 25px;
   border: transparent;
   background: rgb(232, 83, 29);
@@ -154,13 +156,13 @@ form input[type=button]{
   border-radius: 5px;
   cursor: pointer;
 }
-footer{
+footer {
   background-color: black;
   color: white;
   text-align: center;
   padding: 2em;
 }
-footer h2{
-  font-family: 'IBM Plex Mono', monospace;
+footer h2 {
+  font-family: "IBM Plex Mono", monospace;
   color: orangered;
 }
